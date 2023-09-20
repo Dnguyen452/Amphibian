@@ -1,2 +1,2 @@
 # Amphibian
-Dedicated website for amphebian lovers. 
+Dedicated website for amphibien lovers. 
