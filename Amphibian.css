@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif; /* Typo corrected: It's "Arial", not "Ariel" */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.firstContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    display: flex; /* Added this line to make the children of .content (textarea and placeholder-img) line up horizontally */
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 30px;
+    gap: 20px;
+
+}
+
+.textarea {
+    flex: 1; /* This ensures the textarea takes up all available space, pushing the image to its maximum width (200px in this case) */
+==
+}
+
+.textarea h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px bold;
+    color: #F9FAF8
+}
+
+.textarea p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    color: #E5E7EB
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.header a {
+    color: white;
+}
+
+.image {
+    width: 100px; 
+    height: 100px;
+    background-color: gray; 
+    margin: 20px 20px 20px 20px;
+    color: white;
+    flex: 1;
+
+}
+
+.textarea button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#working on the second container 
+
+.secondContainer {
+    display: flex;
+
+}
+
+.floatingBoxs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.quote {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+}
